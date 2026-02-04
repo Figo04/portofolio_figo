@@ -92,9 +92,9 @@ Experienced in Flutter, REST API, SQLite, Firebase
             className="flex justify-center gap-4"
           >
             {[
-              { icon: Github, href: "https://github.com", label: "GitHub" },
-              { icon: Linkedin, href: "https://linkedin.com", label: "LinkedIn" },
-              { icon: Mail, href: "mailto:rizky@example.com", label: "Email" },
+              { icon: Github, href: "https://github.com/Figo04", label: "GitHub" },
+              { icon: Linkedin, href: "https://www.linkedin.com/in/figo-alfa-romeo-40b659300/", label: "LinkedIn" },
+              { icon: Mail, href: "mailto:fiigoo0404@gmail.com", label: "Email" },
             ].map((social) => (
               <a
                 key={social.label}
