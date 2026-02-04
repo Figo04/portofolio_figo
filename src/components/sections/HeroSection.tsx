@@ -94,7 +94,7 @@ Experienced in Flutter, REST API, SQLite, Firebase
             {[
               { icon: Github, href: "https://github.com/Figo04", label: "GitHub" },
               { icon: Linkedin, href: "https://www.linkedin.com/in/figo-alfa-romeo-40b659300/", label: "LinkedIn" },
-              { icon: Mail, href: "mailto:fiigoo0404@gmail.com", label: "Email" },
+              { icon: Mail, href: "https://mail.google.com/mail/?view=cm&fs=1&to=fiigoo0404@gmail.com", label: "Email" },
             ].map((social) => (
               <a
                 key={social.label}
