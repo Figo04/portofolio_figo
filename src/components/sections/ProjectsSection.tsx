@@ -23,15 +23,15 @@ const ProjectsSection = () => {
     {
       title: "Recipe & Cooking App",
       description: "Discover recipes, plan meals, and create shopping lists. Features step-by-step instructions with timers.",
-      techStack: ["Flutter", "REST API", "Firebase", "Riverpod"],
+      techStack: ["Flutter", "SQLite"],
       image: project5,
       color: "from-orange-500 to-amber-600",
-      github: "https://github.com/Figo04/Meals_app",
+      github: "https://github.com/Figo04/recipes_meals_apps/tree/main/aplikasi_resep",
     },
     {
       title: "Finance Tracker",
       description: "Track expenses, manage budgets, and visualize spending patterns. Includes multi-currency support and reports.",
-      techStack: ["Flutter", "Supabase", "Charts", "Provider"],
+      techStack: ["Flutter", "Firebase", "Riverpod"],
       image: project6,
       color: "from-cyan-500 to-blue-600",
       github: "https://github.com/Figo04/fintrack_app",
