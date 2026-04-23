@@ -6,7 +6,7 @@ import { Button } from "@/components/ui/button";
 import project4 from "@/assets/project-1.jpg";
 import project5 from "@/assets/project-2.jpg";
 import project6 from "@/assets/project-3.jpg";
-import project7 from "@/assets/project-4.jpg";
+import project7 from "@/assets/project-4.png";
 
 const ProjectsSection = () => {
   const ref = useRef(null);
