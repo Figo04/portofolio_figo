@@ -7,11 +7,12 @@ const SkillsSection = () => {
 
   const skills = [
     {
-      category: "Mobile Development",
+      category: "Mobile & Web Development ",
       items: [
         { name: "Flutter", level: 95 },
         { name: "Dart", level: 90 },
-        { name: "UI/UX Mobile", level: 75 },
+        { name: "Laravel", level: 80 },
+        { name: "PHP", level: 78 },
       ],
     },
     {

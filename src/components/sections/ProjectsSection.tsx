@@ -6,6 +6,7 @@ import { Button } from "@/components/ui/button";
 import project4 from "@/assets/project-1.jpg";
 import project5 from "@/assets/project-2.jpg";
 import project6 from "@/assets/project-3.jpg";
+import project7 from "@/assets/project-4.jpg";
 
 const ProjectsSection = () => {
   const ref = useRef(null);
@@ -35,6 +36,14 @@ const ProjectsSection = () => {
       image: project6,
       color: "from-cyan-500 to-blue-600",
       github: "https://github.com/Figo04/fintrack_app",
+    },
+    {
+      title: "digital health education",
+      description: "A digital health education platform to measure parental knowledge and attitudes about stunting prevention through pre-tests, educational materials, and post-tests.",
+      techStack: ["Laravel", "PHP", "SQL"],
+      image: project7,
+      color: "from-cyan-500 to-blue-600",
+      github: "https://github.com/Figo04/web_penyuluhan_kesehatan",
     },
   ];
 
