@@ -54,7 +54,7 @@ const HeroSection = () => {
             className="mb-6"
           >
             <h2 className="text-2xl md:text-3xl font-semibold text-primary">
-              Flutter Mobile Developer
+              Software Developer
             </h2>
           </motion.div>
 
@@ -66,7 +66,7 @@ const HeroSection = () => {
             className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto mb-10"
           >
             Final-year IT Student | Internship Seeker
-Experienced in Flutter, REST API, SQLite, Firebase
+Experienced in Flutter, Laravel, REST API, SQL, SQLite, Firebase
           </motion.p>
 
           {/* CTA Buttons */}

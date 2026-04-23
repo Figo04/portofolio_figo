@@ -9,23 +9,23 @@ const AboutSection = () => {
   const highlights = [
     {
       icon: GraduationCap,
-      title: "7th Semester",
+      title: "Final Year",
       description: "Information Technology Student",
     },
     {
       icon: Smartphone,
-      title: "Mobile Focus",
-      description: "Flutter & Cross-platform Apps",
+      title: "Mobile & Web",
+      description: "Flutter · Laravel · Cross-platform",
     },
     {
       icon: Code2,
       title: "Clean Code",
-      description: "Scalable Architecture",
+      description: "Scalable & Maintainable Architecture",
     },
     {
       icon: Sparkles,
-      title: "User-Centric",
-      description: "Beautiful UI/UX Design",
+      title: "AI Enthusiast",
+      description: " Exploring ML & Intelligent Apps",
     },
   ];
 
@@ -71,22 +71,25 @@ const AboutSection = () => {
               className="space-y-6"
             >
               <p className="text-lg text-muted-foreground leading-relaxed">
-                As a 7th semester Information Technology student, I've dedicated my academic 
-                journey to mastering mobile application development. My passion lies in creating 
-                applications that not only function flawlessly but also provide exceptional user 
-                experiences.
-              </p>
-              <p className="text-lg text-muted-foreground leading-relaxed">
-                With hands-on experience in multiple projects, I specialize in building 
-                <span className="text-primary font-medium"> clean, scalable, and maintainable </span>
-                Flutter applications. From concept to deployment, I focus on delivering solutions 
-                that meet both technical excellence and user needs.
-              </p>
-              <p className="text-lg text-muted-foreground leading-relaxed">
-                Beyond coding, I'm passionate about software engineering principles, exploring 
-                new technologies, and continuously improving my craft in the ever-evolving 
-                mobile development landscape.
-              </p>
+  As a final-year Information Technology student, I've dedicated my academic 
+  journey to building impactful digital solutions across mobile and web platforms. 
+  My passion lies in crafting applications that are not only technically solid, 
+  but also deliver exceptional user experiences.
+</p>
+<p className="text-lg text-muted-foreground leading-relaxed">
+  With hands-on experience in multiple projects, I specialize in building 
+  <span className="text-primary font-medium"> clean, scalable, and maintainable </span>
+  applications using Flutter for mobile and Laravel for web. From concept to 
+  deployment, I focus on delivering solutions that bridge the gap between 
+  technical excellence and real user needs.
+</p>
+<p className="text-lg text-muted-foreground leading-relaxed">
+  Beyond coding, I'm passionate about software engineering principles and 
+  the growing intersection of
+  <span className="text-primary font-medium"> AI & machine learning </span>
+  with modern app development — continuously exploring how intelligent systems 
+  can elevate the products I build.
+</p>
             </motion.div>
 
             {/* Highlights Grid */}

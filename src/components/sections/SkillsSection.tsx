@@ -37,6 +37,8 @@ const SkillsSection = () => {
   const techIcons = [
     { name: "Flutter", color: "from-blue-400 to-blue-600" },
     { name: "Dart", color: "from-cyan-400 to-cyan-600" },
+    { name: "Laravel", color: "from-red-400 to-cyan-600" },
+    { name: "PHP", color: "from-yellow-400 to-cyan-600" },
     { name: "Firebase", color: "from-orange-400 to-orange-600" },
     { name: "Supabase", color: "from-emerald-400 to-emerald-600" },
     { name: "PostgreSQL", color: "from-blue-500 to-indigo-600" },
