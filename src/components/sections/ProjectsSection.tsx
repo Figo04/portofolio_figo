@@ -42,7 +42,7 @@ const ProjectsSection = () => {
       description: "A digital health education platform to measure parental knowledge and attitudes about stunting prevention through pre-tests, educational materials, and post-tests.",
       techStack: ["Laravel", "PHP", "SQL"],
       image: project7,
-      color: "from-cyan-500 to-blue-600",
+      color: "from-red-500 to-blue-600",
       github: "https://github.com/Figo04/web_penyuluhan_kesehatan",
     },
   ];
