@@ -9,7 +9,7 @@ const AboutSection = () => {
   const highlights = [
     {
       icon: GraduationCap,
-      title: "Final Year",
+      title: "Fresh Graduate",
       description: "Information Technology Student",
     },
     {
@@ -70,24 +70,26 @@ const AboutSection = () => {
               transition={{ duration: 0.6, delay: 0.2 }}
               className="space-y-6"
             >
-              <p className="text-lg text-muted-foreground leading-relaxed">
-  As a final-year Information Technology student, I've dedicated my academic 
-  journey to building impactful digital solutions across mobile and web platforms. 
-  My passion lies in crafting applications that are not only technically solid, 
-  but also deliver exceptional user experiences.
+                <p className="text-lg text-muted-foreground leading-relaxed">
+  As a fresh Information Technology graduate, I've built my portfolio around
+  impactful digital solutions across mobile and web platforms — including
+  real client projects delivered end-to-end. My passion lies in crafting
+  applications that are not only technically solid, but also deliver
+  exceptional user experiences.
 </p>
 <p className="text-lg text-muted-foreground leading-relaxed">
-  With hands-on experience in multiple projects, I specialize in building 
+  With hands-on experience across multiple client and academic projects, I
+  specialize in building 
   <span className="text-primary font-medium"> clean, scalable, and maintainable </span>
-  applications using Flutter for mobile and Laravel for web. From concept to 
-  deployment, I focus on delivering solutions that bridge the gap between 
-  technical excellence and real user needs.
+  applications using Flutter for mobile and Laravel for web. From requirements
+  analysis and database design to deployment, I focus on delivering solutions
+  that bridge the gap between technical excellence and real user needs.
 </p>
 <p className="text-lg text-muted-foreground leading-relaxed">
-  Beyond coding, I'm passionate about software engineering principles and 
+  Beyond coding, I'm passionate about software engineering principles and
   the growing intersection of
   <span className="text-primary font-medium"> AI & machine learning </span>
-  with modern app development — continuously exploring how intelligent systems 
+  with modern app development — continuously exploring how intelligent systems
   can elevate the products I build.
 </p>
             </motion.div>

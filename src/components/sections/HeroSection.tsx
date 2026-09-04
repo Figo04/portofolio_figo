@@ -65,7 +65,7 @@ const HeroSection = () => {
             transition={{ duration: 0.6, delay: 0.3 }}
             className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto mb-10"
           >
-            Final-year IT Student | Internship Seeker
+            Fresh IT Graduate | Open for Software Developer Roles
 Experienced in Flutter, Laravel, REST API, SQL, SQLite, Firebase
           </motion.p>
 

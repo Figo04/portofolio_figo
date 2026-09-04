@@ -5,7 +5,7 @@ const SkillsSection = () => {
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true, margin: "-100px" });
 
-  const skills = [
+    const skills = [
     {
       category: "Mobile & Web Development ",
       items: [
@@ -13,15 +13,19 @@ const SkillsSection = () => {
         { name: "Dart", level: 90 },
         { name: "Laravel", level: 80 },
         { name: "PHP", level: 78 },
+        { name: "Tailwind CSS", level: 82 },
+        { name: "Alpine.js", level: 70 },
       ],
     },
-    {
+        {
       category: "Backend & Database",
       items: [
+        { name: "MySQL", level: 82 },
         { name: "Firebase", level: 88 },
         { name: "Supabase", level: 70 },
         { name: "PostgreSQL", level: 75 },
         { name: "SQLite", level: 75 },
+        { name: "Laravel Breeze", level: 75 },
       ],
     },
     {
@@ -35,11 +39,13 @@ const SkillsSection = () => {
     },
   ];
 
-  const techIcons = [
+    const techIcons = [
     { name: "Flutter", color: "from-blue-400 to-blue-600" },
     { name: "Dart", color: "from-cyan-400 to-cyan-600" },
     { name: "Laravel", color: "from-red-400 to-cyan-600" },
     { name: "PHP", color: "from-yellow-400 to-cyan-600" },
+    { name: "MySQL", color: "from-blue-600 to-orange-500" },
+    { name: "Tailwind CSS", color: "from-sky-400 to-cyan-500" },
     { name: "Firebase", color: "from-orange-400 to-orange-600" },
     { name: "Supabase", color: "from-emerald-400 to-emerald-600" },
     { name: "PostgreSQL", color: "from-blue-500 to-indigo-600" },

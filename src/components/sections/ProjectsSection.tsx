@@ -7,6 +7,7 @@ import project4 from "@/assets/project-1.jpg";
 import project5 from "@/assets/project-2.jpg";
 import project6 from "@/assets/project-3.jpg";
 import project7 from "@/assets/project-4.png";
+import project8 from "@/assets/project-5.png";
 
 const ProjectsSection = () => {
   const ref = useRef(null);
@@ -38,12 +39,20 @@ const ProjectsSection = () => {
       github: "https://github.com/Figo04/fintrack_app",
     },
     {
-      title: "digital health education",
-      description: "A digital health education platform to measure parental knowledge and attitudes about stunting prevention through pre-tests, educational materials, and post-tests.",
-      techStack: ["Laravel", "PHP", "SQL"],
+      title: "KenaliStunting — Stunting Education Platform",
+      description: "A client web platform to educate parents about stunting and measure their knowledge through pre-tests, learning materials, doctor consultation, and post-tests. Built with an admin dashboard supporting CSV/Excel export.",
+      techStack: ["Laravel 12", "MySQL", "Tailwind CSS", "Alpine.js"],
       image: project7,
       color: "from-red-500 to-blue-600",
       github: "https://github.com/Figo04/web_penyuluhan_kesehatan",
+    },
+    {
+      title: "MARITA — Anemia Education & TTD Reminder",
+      description: "A client web platform helping female high school students learn about anemia, track hemoglobin status, and follow a color-coded calendar for iron tablet (TTD) consumption, with tiered admin dashboards for schools.",
+      techStack: ["Laravel", "MySQL", "Laravel Breeze", "Tailwind CSS"],
+      image: project8,
+      color: "from-pink-500 to-rose-600",
+      github: "https://github.com/Figo04/marita_web",
     },
   ];
 
