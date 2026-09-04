@@ -7,7 +7,7 @@ import project4 from "@/assets/project-1.jpg";
 import project5 from "@/assets/project-2.jpg";
 import project6 from "@/assets/project-3.jpg";
 import project7 from "@/assets/project-4.png";
-import project8 from "@/assets/project-5.png";
+import project8 from "@/assets/project-5.jpeg";
 
 const ProjectsSection = () => {
   const ref = useRef(null);
